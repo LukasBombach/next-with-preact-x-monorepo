@@ -1,0 +1,16 @@
+{
+  "name": "next-preact",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "bin": {
+    "next:preact": "bin/index.js"
+  },
+  "dependencies": {
+    "module-alias": "2.2.0"
+  },
+  "peerDependencies": {
+    "preact": ">=10.x",
+    "preact-render-to-string": ">=5.0.3"
+  }
+}

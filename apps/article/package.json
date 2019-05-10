@@ -1,0 +1,15 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next:preact dev",
+    "start": "next:preact start",
+    "build": "next:preact build"
+  },
+  "dependencies": {
+    "next": "8.1.1-canary.25",
+    "next-preact": "1.0.0",
+    "preact": "10.0.0-beta.1",
+    "preact-render-to-string": "5.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "rbbt-zero",
+  "repository": "git@github.com:spring-media/rbbt-zero.git",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
