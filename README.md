@@ -6,7 +6,7 @@ It consists of 3 packages in 2 folders:
 
 * [`apps/article`](./tree/master/apps/article) An example app, called "article" (I could have called it "app" but I didn't because of _reasons_
 * [`packages/next-preact`](./tree/master/packages/next-preact) A reimplementation of [@zeit/next-preact](https://github.com/zeit/next-plugins/tree/master/packages/next-preact) 
-* [`packages/preact`](https://github.com/developit/preact/) a clone of the [Preact X master branch](https://github.com/developit/preact) to use the latest, yet unreleased Preact that includes lazy / Suspense
+* [`packages/preact`](https://github.com/developit/preact/) a clone of the [Preact X master branch](https://github.com/developit/preact) to use the latest Preact X (with Suspense)
 
 Apart from these local dependencies it is important to say that `apps/article` uses `next@carnary` because only that works with Preact (because they loosened their dependency on [react-ssr-prepass](https://github.com/FormidableLabs/react-ssr-prepass)
 
